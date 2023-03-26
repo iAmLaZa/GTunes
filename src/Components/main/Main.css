@@ -1,0 +1,166 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: rgb(79, 20, 134);
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    flex-grow: 1;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+  }
+  
+  .clear-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .search-btn {
+    border: none;
+    background-color:  rgb(79, 20, 134);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .panier_l img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+.container {
+    width: 250px;
+    margin: 30px ;
+    background-color: #fff;
+    padding: 20px ;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #EEEEEE;
+  }
+  
+.avatar {
+    border-radius: 100px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: auto ;
+    top: -20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 13px #f0f0f0;
+  
+  }
+  .content{
+      margin: 0px;
+  }
+  .avatar img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .album,
+  .artist {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .add {
+    background-color: rgb(79, 20, 134);
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  button.remove {
+    background-color: #db4437;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  
+  
+  .page-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .page-info {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .page-navigation {
+    display: flex;
+  }
+  
+  .page-nav-btn {
+    background-color: rgb(79, 20, 134);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page-nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

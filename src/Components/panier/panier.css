@@ -1,0 +1,129 @@
+.panier {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .panier.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .panier-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .panier-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .panier-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .panier-header button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .panier-items {
+    margin-bottom: 20px;
+  }
+  
+  .panier-item {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 20px;
+    padding: 20px;
+  }
+  
+  .panier-item-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .panier-item-left img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  
+  .panier-item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .panier-item-right button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .panier-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .panier-footer button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .panier-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .panier-form-item {
+    margin-bottom: 20px;
+  }
+  
+  .panier-form-item label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .panier-form-item input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
